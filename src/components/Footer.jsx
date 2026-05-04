@@ -11,25 +11,25 @@ const Footer = ({ isDark }) => {
         
         <div className="flex gap-6">
           <a 
-            href="https://github.com" 
+            href="https://github.com/phurpa2003" 
             target="_blank"
             className={`hover:text-blue-600 transition duration-200 cursor-pointer font-medium ${isDark ? "text-gray-400" : "text-gray-500"}`}
           >
             GitHub
           </a>
           <a 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/phurpa-dendup-98393b28b/" 
             target="_blank"
             className={`hover:text-blue-600 transition duration-200 cursor-pointer font-medium ${isDark ? "text-gray-400" : "text-gray-500"}`}
           >
             LinkedIn
           </a>
           <a 
-            href="https://twitter.com" 
+            href="https://www.instagram.com/denlumere_/" 
             target="_blank"
             className={`hover:text-blue-600 transition duration-200 cursor-pointer font-medium ${isDark ? "text-gray-400" : "text-gray-500"}`}
           >
-            Twitter
+            Instagram
           </a>
         </div>
 
